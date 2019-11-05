@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		432005C82371AD8C00D734E8 /* ImageLoaderService.h in Headers */ = {isa = PBXBuildFile; fileRef = 432005C62371AD8B00D734E8 /* ImageLoaderService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43BC5F822371E7EF002C07BD /* PictureLoadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC5F812371E7EF002C07BD /* PictureLoadService.swift */; };
+		43BC5F872371EA76002C07BD /* PictureLoadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC5F812371E7EF002C07BD /* PictureLoadService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43BC5F822371E7EF002C07BD /* PictureLoadService.swift in Sources */,
+				43BC5F872371EA76002C07BD /* PictureLoadService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
