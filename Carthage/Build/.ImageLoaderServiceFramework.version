@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "9ed1e9fd438be489a9abdf1807b9a0136b74e61a",
+  "iOS" : [
+    {
+      "name" : "ImageLoaderService",
+      "hash" : "bf84784b11d83e8731f01732015845bd05e45b2d43a1b403fe61b2d49deb0bde"
+    }
+  ]
+}

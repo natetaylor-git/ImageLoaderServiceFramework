@@ -1,0 +1,6 @@
+framework module ImageLoaderService {
+  umbrella header "ImageLoaderService.h"
+
+  export *
+  module * { export * }
+}
