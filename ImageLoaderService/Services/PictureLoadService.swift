@@ -33,7 +33,7 @@ extension CustomError : LocalizedError {
     }
 }
 
-class PictureLoadService: PictureLoadServiceProtocol {
+public class PictureLoadService: PictureLoadServiceProtocol {
     var urlSource: String {
         get {
             return "http://icons.iconarchive.com/icons/dtafalonso/ios8/512/Calendar-icon.png"
