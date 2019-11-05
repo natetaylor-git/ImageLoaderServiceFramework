@@ -41,7 +41,7 @@ Installation finished.
 
 ### How to use
 
-In order to use ImageLoaderService simply add import statement to your code:
+In order to use **ImageLoaderService** simply add *import* statement to your code:
 ```
 import ImageLoaderService
 ```
