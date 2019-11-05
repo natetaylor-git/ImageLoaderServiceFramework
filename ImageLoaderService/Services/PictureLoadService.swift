@@ -34,13 +34,16 @@ extension CustomError : LocalizedError {
 }
 
 public class PictureLoadService: PictureLoadServiceProtocol {
+    
+    public init() {}
+    
     var urlSource: String {
         get {
             return "http://icons.iconarchive.com/icons/dtafalonso/ios8/512/Calendar-icon.png"
         }
     }
     
-    func downloadImage(completion: @escaping (Data?, Error?) -> Void) {
+    public func downloadImage(completion: @escaping (Data?, Error?) -> Void) {
         guard let url = URL(string: self.urlSource) else {
             completion(nil, CustomError.noUrl)
             return
@@ -71,7 +74,7 @@ public class PictureLoadService: PictureLoadServiceProtocol {
         URLCache.shared.storeCachedResponse(cachedResponse, for: URLRequest(url: responseURL))
     }
     
-    func downloadImageFromCache(completion: @escaping (Data?, Error?) -> Void) {
+    public func downloadImageFromCache(completion: @escaping (Data?, Error?) -> Void) {
         guard let url = URL(string: self.urlSource) else {
             return completion(nil, CustomError.noUrl)
         }
